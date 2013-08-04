@@ -12,7 +12,14 @@
 </head>
 
 <body>
-    TEST
+    <h1>TEST</h1>
+    <ul>
+        <li>Request.Url.Authority = @Request.Url.Authority</li>
+        <li>Url.Content("~") = @Url.Content("~")</li>
+        <li>HttpRuntime.AppDomainAppVirtualPath = @HttpRuntime.AppDomainAppVirtualPath</li>
+        <li>HttpRuntime.AppDomainAppPath = @HttpRuntime.AppDomainAppPath</li>
+    </ul>
+    <script data-main="@Url.Content("~/App/js/main")" src="@Url.Content("~/App/js/lib/require-2.1.8.min.js")"></script>
 </body>
 
 </html>

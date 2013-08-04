@@ -140,6 +140,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App\js\helper\util.js" />
+    <Content Include="App\js\lib\jquery-2.0.3.min.js" />
+    <Content Include="App\js\lib\require-2.1.8.min.js" />
+    <Content Include="App\js\main.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -151,7 +155,6 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\js\lib\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
