@@ -9,6 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Require.js Test</title>
+    <script data-main="@Url.Content("~/App/js/main")" src="@Url.Content("~/App/js/lib/require.js")"></script>
 </head>
 
 <body>
@@ -19,7 +20,6 @@
         <li>HttpRuntime.AppDomainAppVirtualPath = @HttpRuntime.AppDomainAppVirtualPath</li>
         <li>HttpRuntime.AppDomainAppPath = @HttpRuntime.AppDomainAppPath</li>
     </ul>
-    <script data-main="@Url.Content("~/App/js/main")" src="@Url.Content("~/App/js/lib/require-2.1.8.min.js")"></script>
 </body>
 
 </html>
