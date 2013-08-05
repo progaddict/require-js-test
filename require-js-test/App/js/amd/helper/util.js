@@ -1,10 +1,8 @@
-﻿define(['jquery'], function ($) {
+﻿define(['domReady!'], function ($) {
     var exportedApi = {};
 
     exportedApi.doSomething = function () {
-        $(function () {
-            alert('did something');
-        });
+        alert('did something');
     };
     
     return exportedApi;

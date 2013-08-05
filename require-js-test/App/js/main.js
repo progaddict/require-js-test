@@ -1,6 +1,8 @@
 ﻿require.config({
     paths: {
-        'jquery': 'lib/jquery'
+        'jquery': 'lib/jquery',
+        'knockout': 'lib/knockout',
+        'domReady': 'amd/domReady'
     }
 });
 
@@ -17,4 +19,9 @@ require(['amd/helper/util'], function (util) {
 // test 2
 require(['amd/helper/util2'], function (util) {
     util.doSomething();
+});
+
+// ko test
+require(['knockout', 'amd/view-models/appViewModel', 'domReady!'], function (ko, appViewModel) {
+    ko.applyBindings(new appViewModel());
 });

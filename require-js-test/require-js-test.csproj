@@ -140,8 +140,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="App\js\amd\helper\util2.js" />
     <Content Include="App\js\amd\helper\util.js" />
+    <Content Include="App\js\amd\view-models\appViewModel.js" />
+    <Content Include="App\js\amd\domReady.js" />
     <Content Include="App\js\lib\jquery.js" />
+    <Content Include="App\js\lib\knockout.js" />
     <Content Include="App\js\lib\require.js" />
     <Content Include="App\js\main.js" />
     <Content Include="Global.asax" />

@@ -9,7 +9,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Require.js Test</title>
-    <script data-main="@Url.Content("~/App/js/main")" src="@Url.Content("~/App/js/lib/require.js")"></script>
+    <script data-main="@Url.Content("~/App/js/main.js")" src="@Url.Content("~/App/js/lib/require.js")"></script>
 </head>
 
 <body>
@@ -20,6 +20,15 @@
         <li>HttpRuntime.AppDomainAppVirtualPath = @HttpRuntime.AppDomainAppVirtualPath</li>
         <li>HttpRuntime.AppDomainAppPath = @HttpRuntime.AppDomainAppPath</li>
     </ul>
+
+    <div>
+        <p>
+            First name: <input data-bind="value: firstName" />
+        </p>
+        <p>
+            First name capitalized: <strong data-bind="text: firstNameCaps"></strong>
+        </p>
+    </div>
 </body>
 
 </html>
